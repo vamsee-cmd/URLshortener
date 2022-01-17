@@ -9,7 +9,7 @@ $sql="select * from urls where c='".$c."'";
 $result=$conn->query($sql) or die($conn->error);
 while($row=$result->fetch_assoc()){
 
-    header("Location://".$row['longurl']);
+    header("Location:".$row['longurl']);
     exit;
 }
 ?>
