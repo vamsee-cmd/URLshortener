@@ -53,8 +53,8 @@ return true;
 			<div class="url">
 				<div class="short_url">
 					<a href="./r?c=<?= $url['c']; ?>" target="_blank">
-						http://shrt.fr.gd/r?c=<?= $url['c']; ?>
-					</a><button onclick="copyLink('http://shrt.fr.gd/r?c=<?= $url['c']; ?>')"><i class="far fa-copy"></i></button>
+						q-k.herokuapp.com/r?c=<?= $url['c']; ?>
+					</a><button onclick="copyLink('q-k.herokuapp.com/r?c=<?= $url['c']; ?>')"><i class="far fa-copy"></i></button>
 				</div>
 				<div class="long_url">
 					<a href="<?= $url['longurl']; ?>" target="_blank"><?= $url['longurl']; ?></a>
