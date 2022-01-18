@@ -4,7 +4,7 @@ $conn = new mysqli('remotemysql.com', 'WK1eggxcgK', 'Q7gkaeCv2k', 'WK1eggxcgK');
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-$result=$conn->query("select * from urls");
+$result=$conn->query("select * from urls order by c DESC");
 ?>
 <html lang="en">
 <head>
