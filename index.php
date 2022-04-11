@@ -37,6 +37,7 @@ return true;
 </head>
 <body onload="setTimeout(stoppreloader, 1500)">
 <div id="loading"></div>
+	<br>
 		<center><h1>URL shortener</h1><br>
 		<div><h4>&#169; <a href="https://in.linkedin.com/in/vamshi-embadi" target="_blank">vamshikrishna Embadi</a></h4></div></center>
 	<main>
