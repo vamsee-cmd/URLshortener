@@ -1,5 +1,5 @@
 <?php 
-$conn = new mysqli('remotemysql.com', 'WK1eggxcgK', 'Q7gkaeCv2k', 'WK1eggxcgK');
+$conn = new mysqli('remotemysql.com', 'WK1eggxcgK', 'z9HcRqhc5i', 'WK1eggxcgK');
 // Check connection
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
