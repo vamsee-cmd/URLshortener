@@ -38,8 +38,8 @@ return true;
 <body onload="setTimeout(stoppreloader, 1500)">
 <div id="loading"></div>
 	<header>
-		<h1>URL shortener</h1><br>
-		<h4>&#169; <a href="https://in.linkedin.com/in/vamshi-embadi" target="_blank">vamshikrishna Embadi</a></h4>
+		<div><h1>URL shortener</h1></div><br>
+		<div><h4>&#169; <a href="https://in.linkedin.com/in/vamshi-embadi" target="_blank">vamshikrishna Embadi</a></h4></div>
 	</header>
 	<main>
 		<section class="form">
